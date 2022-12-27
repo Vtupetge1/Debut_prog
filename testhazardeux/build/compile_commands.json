@@ -1,0 +1,12 @@
+[
+{
+  "directory": "C:/Users/virgi/Documents/code/IUT/testhazardeux/build",
+  "command": "C:\\ProgramData\\chocolatey\\bin\\g++.exe -IC:/Users/virgi/Documents/code/IUT/testhazardeux/include -g -std=gnu++17 -o src\\CMakeFiles\\GL_exe.dir\\main.cpp.obj -c C:\\Users\\virgi\\Documents\\code\\IUT\\testhazardeux\\src\\main.cpp",
+  "file": "C:\\Users\\virgi\\Documents\\code\\IUT\\testhazardeux\\src\\main.cpp"
+},
+{
+  "directory": "C:/Users/virgi/Documents/code/IUT/testhazardeux/build",
+  "command": "C:\\ProgramData\\chocolatey\\bin\\g++.exe -IC:/Users/virgi/Documents/code/IUT/testhazardeux/include -g -std=gnu++17 -o src\\CMakeFiles\\GL_exe.dir\\my_functions.cpp.obj -c C:\\Users\\virgi\\Documents\\code\\IUT\\testhazardeux\\src\\my_functions.cpp",
+  "file": "C:\\Users\\virgi\\Documents\\code\\IUT\\testhazardeux\\src\\my_functions.cpp"
+}
+]
