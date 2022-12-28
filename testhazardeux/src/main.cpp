@@ -15,10 +15,7 @@
 
 int main() {
     // TOUJOURS ICI
-float valeurB;
-float valeureF;
-valeureF = calculateur (valeurB);
-std::cout << valeureF;
+
 
 return 0;
 }
