@@ -1,27 +1,15 @@
 //  Copyright (c) 2022 Virgile Tupet
-// l'objectif de ce programme et de me rappeler de ce que je fait 
-// tout d'abord declarer la fction dans myheader avec les parametres qu'elle va utiliser (nom du parametre)
-// ensuite utilisation de la fction et redeclaration si besoin
-// attribution d'une variable qui va prendre la valeure que va retourner la fonction
-// et volaaa
 //
 
 #include "my_header.h"
-#include <iostream>
-#include <string>
-
-// JAMAIS ICI
 
 
-int main() {
-    // TOUJOURS ICI
-float valeurB;
-float valeureF;
-valeureF = calculateur (valeurB);
-std::cout << valeureF;
 
-return 0;
+int main(int argc, char *argv[])
+{
+    float a[15]{4,8,2,8,3,45,4,7,12,10,1,3,24,5,9};
+    temptab(a);
+
+    return 0;
 }
-
-// type nom(typeparam nomparam, typeparam nomparam);
-// typedef def nom
+ 

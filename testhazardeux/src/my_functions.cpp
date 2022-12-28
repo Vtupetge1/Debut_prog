@@ -4,15 +4,33 @@
 #include "my_header.h"
 #include <iostream>
 
-float resultat;
-
-float calculateur (float(valeurDeBase))
+float temptab (float a [14])
 {
-    std::cout << "taper une valeur a virgule :\n ";
-    std::cin >> valeurDeBase ;
-    resultat = valeurDeBase * valeurDeBase * 3.14;
+float tmin = a[0];
 
-    return resultat;
+for(int i = 0; i<15; i++)
+{
+    if(a[i]>0)
+    {
+        if(a[i] < tmin)
+        {
+            tmin= a[i];
+        }
+    }
+    else if(a[i]<0)
+    {
+        if(a[i] < tmin )
+        {
+            tmin = a[i];
+        }
+    }
+    else 
+    {
+        tmin = a[i];
+    }
+
+}
+return tmin;
 }
 
 

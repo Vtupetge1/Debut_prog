@@ -1,9 +1,9 @@
-//  Copyright (c) 2022 Virgile Tupet
+//  Copyright (c) 2020 Antoine Tran Tan
 //
 
 #ifndef MY_HEADER_H
 #define MY_HEADER_H
 
-float calculateur (float(valeurDeBase));
+float temptab (float a [15]);
 
 #endif
