@@ -16,8 +16,11 @@
 int main() {
     // TOUJOURS ICI
 
+while(1)
+{
+    
+}
 
-return 0;
 }
 
 // type nom(typeparam nomparam, typeparam nomparam);
